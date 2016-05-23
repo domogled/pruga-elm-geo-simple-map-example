@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "elm-make --yes src/Main.elm --output=./elm.js && cp index.template.html index.html",
+    "live-web": "pruga-elm-živě web",
+    "live-node": "pruga-elm-živě node"
+  },
+  "dependencies": {
+    "pruga-elm-živě": "^0.0.1"
+  }
+}
